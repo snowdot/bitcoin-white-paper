@@ -20,9 +20,15 @@ blockquote {
 }
 
 code {
+    background-color: #f3f6f7ab;
+    border-radius: 4px;
     color: #5d6163;
+    display: block;
     font-size: 14px;
     word-wrap: break-word;
+    margin-bottom: 1em;
+    padding: 10px;
+    text-align: left;
 }
 
 h1 {
@@ -88,6 +94,11 @@ section {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
+}
+
+.prob {
+    font-size: 14px;
+    color: #585a5a;
 }
 
 #price {
